@@ -1,9 +1,9 @@
 'use client';
 
-import { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
 
 interface ClientOnlyProps {
-    children: React.ReachNode;
+    children: React.ReactNode;
 }
 
 const ClientOnly: React.FC<ClientOnlyProps> = ({
